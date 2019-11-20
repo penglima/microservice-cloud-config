@@ -13,7 +13,7 @@ mybatis:
 spring:
   profiles: dev1 # 开发环境
   application:
-    name: microservice-product-config-bus #这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个 name
+    name: microservice-product-config #这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个 name
 
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource # 当前数据源操作类型
