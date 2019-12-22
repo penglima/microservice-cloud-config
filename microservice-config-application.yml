@@ -5,6 +5,7 @@ spring:
 ---
 server:
   port: 4001 #端口号
+name: hahhaha
 
 spring:
   profiles: dev # 开发环境
